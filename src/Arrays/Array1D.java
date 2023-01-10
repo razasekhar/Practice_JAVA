@@ -1,6 +1,9 @@
 package Arrays;
 
+import org.testng.annotations.Test;
+
 public class Array1D {
+	@Test
 	public static void main(String[] args) {
 		int[] Array = new int[10];
 		//String[] myArray = new String[30]; 
