@@ -14,7 +14,6 @@ public class New_Class {
 		By userName = By.id("identifierId");
 		By next = By.xpath("//*[contains(text(),'Next')]");
 		By Password = By.xpath("//input[@type='password']");
-//		By clickSignIn = By.xpath("");
 		try {
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://www.google.com");
