@@ -1,19 +1,20 @@
 package Reverse;
 
 import java.util.Scanner;
-import java.util.LinkedHashSet;
-import java.util.Arrays;
 
 public class removeDuplicates {
-  public static void main(String[] args) {
-		/*
-		 * Scanner scanner = new Scanner(System.in);
-		 * System.out.println("Enter a sentence: ");
-		 */
-    String input = "i love you my love";
-    String[] words = input.split(" ");
-    LinkedHashSet<String> set = new LinkedHashSet<>(Arrays.asList(words));
-    String output = String.join(" ", set);
-    System.out.println("The sentence with duplicates removed is: " + output);
-  }
-}
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter number of rows :");
+		int rows = scanner.nextInt();
+
+	    for(int i = 1; i <= rows; i++) {
+	      for(int j = 1; j <= i; j++) {
+	        System.out.print(j + " ");
+	      }
+	      System.out.println();
+	    }
+	  }
+
+
+	}
