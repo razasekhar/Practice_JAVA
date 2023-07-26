@@ -3,6 +3,9 @@ package Loops;
 import java.util.Scanner;
 
 public class halfPyramidNumbers {
+	public static void main(String args[]) {
+		
+	}
 	public static void main() {
 		int i,j,n;
 		Scanner scanner = new Scanner(System.in);
