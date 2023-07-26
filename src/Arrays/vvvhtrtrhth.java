@@ -9,6 +9,7 @@ public class vvvhtrtrhth {
 				System.out.println(j + " ");
 			}
 			System.out.println();
+			System.out.println();
 		}
 		
 		
