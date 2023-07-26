@@ -5,11 +5,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.Test;
 
 public class New_Class {
-	@FindBy WebElement actions;
+	@Test
 	public static void main(String[] args) {
-		
+
 		By signIn = By.xpath("//*[contains(text(),'Sign in')]");
 		By userName = By.id("identifierId");
 		By next = By.xpath("//*[contains(text(),'Next')]");
